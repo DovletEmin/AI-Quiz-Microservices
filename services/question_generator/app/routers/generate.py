@@ -5,7 +5,7 @@ from pydantic import BaseModel
 from typing import List
 import httpx
 
-router = APIRouter(prefix="/api", tags=["generate"])
+router = APIRouter(prefix="/api", tags=["Generate"])
 
 class Question(BaseModel):
     question: str

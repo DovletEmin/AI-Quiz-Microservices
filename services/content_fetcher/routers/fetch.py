@@ -3,7 +3,7 @@ from pydantic import BaseModel
 import httpx
 from urllib.parse import quote
 
-router = APIRouter(prefix="/api", tags=["fetch"])
+router = APIRouter(prefix="/api", tags=["Fetch"])
 
 _CACHE: dict[tuple[str, str], dict] = {}
 
